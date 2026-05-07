@@ -166,13 +166,5 @@ Chalice API
 Discord bot / API users
 ```
 
-## Stretch Goals
 
-Stretch goals added:
-
-- Tracked multiple NYT sections instead of a single stream.
-- Added baseline handling to avoid an artificial first-run spike.
-- Added a public S3 plot resource.
-- Added a CSV export of the accumulated historical data.
-- Added a trend endpoint that summarizes which section is currently most active.
 
