@@ -159,8 +159,7 @@ def upload_to_s3(local_file, s3_key, content_type):
                 S3_BUCKET,
                 s3_key,
                 ExtraArgs={
-                    "ContentType": content_type,
-                    "ACL": "public-read"
+                    "ContentType": content_type
                 }
             )
 
